@@ -20,7 +20,7 @@ export default class StudentInsert extends Component {
             alert("Required Field is Missing");
         }
         else {
-            var InsertAPIURL = "http://192.168.0.3:8080/api/insert.php";
+            var InsertAPIURL = "http://XXX.XXX.X.X:8080/api/insert.php"; // eniig solioroi
 
             var headers = {
                 'Accept': 'application/json',
